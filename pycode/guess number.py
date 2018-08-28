@@ -11,6 +11,7 @@ def header():
     print("----------------------------------")
     print()
 
+
 def how_close(g, n):
     num = abs(g - n)
     if (num > 5) and (num < 10):
@@ -19,6 +20,7 @@ def how_close(g, n):
         print('Almost on it')
     else:
         pass
+
 
 header()
 
@@ -31,4 +33,4 @@ while guess != num:
     elif guess > num:
         print('Too High')
     else:
-        print('bingo, you took {} attempts to guess the number {}'.format(counter,num))
+        print('bingo, you took {} attempts to guess the number {}'.format(counter, num))
