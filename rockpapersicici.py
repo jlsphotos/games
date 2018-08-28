@@ -6,7 +6,7 @@ choose = {1: "Rock", 2: "Paper", 3: "Scissors"}
 # sets win condition
 win_set = {1: 3, 2: 1, 3: 2}
 
-user = input("Select: ")
+user = input("Select 1 for  rock : ")
 com = random.randint(1, 3)
 
 # checks is number and between 1 and 3
